@@ -29,5 +29,4 @@ with open('synonyms.txt', 'r+') as file:
                 d[i] =  set([c for c in nw if c!=i])
             file.write("\n" + ' '.join(list(nw)))
 
-
 print('Cпасибо что воспользовались этой программой!')
